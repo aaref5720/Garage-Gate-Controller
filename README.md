@@ -97,6 +97,13 @@ const int statusLedPin = 2;        // General status LED
    - Click "Run" in Android Studio
    - Grant internet permissions when prompted
 
+4. **APK File Location**
+   - The compiled APK file is located at:
+   ```
+   C:\Users\aaref\AndroidStudioProjects\AutomotiveDashboard\app\build\outputs\apk\release
+   ```
+   - You can install this APK directly on Android devices for testing
+
 ## 🔧 Configuration
 
 ### Network Configuration
