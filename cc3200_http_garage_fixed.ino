@@ -11,8 +11,8 @@
  #include <WiFiServer.h>
  
  // WiFi Configuration
- char ssid[] = "TP-LINK_ED14";
- char password[] = "68550837";
+char ssid[] = "YOUR_WIFI_SSID";
+char password[] = "YOUR_WIFI_PASSWORD";
  
  // HTTP Server Configuration
  WiFiServer server(80);
@@ -62,7 +62,7 @@
    if (!wifiConnected) return;
    
    WiFiClient client;
-   String serverIP = "192.168.0.103";  // Your computer's IP
+   String serverIP = "Your computer's IP";  // Your computer's IP
    int serverPort = 8080;  // HTTP server port
    
    Serial.println("Sending status update to server...");
